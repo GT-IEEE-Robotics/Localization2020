@@ -11,10 +11,13 @@ setup(
     author_email = "ieee_president@gmail.com",
     description = ("The localization library for the 2020 SoutheastCon robotics competition."),
     url = "https://github.com/GT-IEEE-Robotics/Localization2020",
-    py_modules=['vision'],
+    py_modules=['localize'],
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
     python_requires='>=3.5',
-    install_requires=[]
+    install_requires=['numpy',
+                      'pygame',
+                      'vision2020',
+                      'simulator2020']
 )
 
