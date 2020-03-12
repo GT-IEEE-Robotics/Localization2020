@@ -2,12 +2,11 @@
 """
 File:          particle_filter_tests.py
 Author:        Binit Shah
-Last Modified: Binit on 2/18
+Last Modified: Binit on 2/22
 """
 
 import sim
-import cv2
-import particle_filter
+from localization import particle_filter
 
 CONFIDENCE_THRES = 0.8
 

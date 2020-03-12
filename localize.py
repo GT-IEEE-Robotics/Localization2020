@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-File:          localization.py
+File:          localize.py
 Author:        Binit Shah
 Last Modified: Binit on 2/21
 """
